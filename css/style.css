@@ -514,8 +514,10 @@ margin-top: 90px;
 
        
         
-        .footer_contacs a {
-        display: inline-block;
+        .footer_contacs .footer_email .footer_tel{
+            display: block inline-block;
+            padding: 10px 24px;
+        
         }
         
        
@@ -544,6 +546,7 @@ margin-top: 90px;
     color: var(--white);
     padding-left: 110px;
     padding-bottom: 10px;
+    padding-top: 10px;
     
 }
 .footer_tel {
