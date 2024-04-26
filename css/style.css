@@ -478,7 +478,8 @@ margin-top: 90px;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    display: block;
+    display: flex;
+    
 }
 
 
@@ -513,7 +514,9 @@ margin-top: 90px;
 
        
         
-        
+        .footer_contacs a {
+        display: inline-block;
+        }
         
        
 
@@ -555,7 +558,7 @@ margin-top: 90px;
     
 }
 
-  
+
 
 
 .find_us_header {
