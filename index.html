@@ -25,14 +25,25 @@ rel="stylesheet">
                 <li><a href="#" class="links">Contacts</a></li>
             </ul>
         </nav>
-        <div class="header_contacts">
+        <!-- Header contacts -->
+        <div class="portofolio_header_contacts">
+            <div class="contact_icon">
+                <svg class="envelope">
+                    <use href="./images/icons/icons.svg#icon-envelope"/>
+                </svg> 
             <a class="header_email"
             href="info@devstudio.com">info@devstudio.com</a>
-        
+        </div>
+        <div class="contact_icon">
+            <svg class="envelope">
+                <use href="./images/icons/icons.svg#icon-smartphone"/>
+            </svg>
             <a class="header_tel"
             href="+1212-772-4150">+1 212-772-4150</a>
         </div>
     </div>
+    </div>
+    
     </header>
 
     <!--Main Page-->
@@ -45,7 +56,36 @@ rel="stylesheet">
     </div>
       </section>
 
+      <!-- Features section -->
+
+      <div class="features_container">
+        
+        <svg class="features_icons">
+                <use href="./images/icons/icons.svg#icon-antenna-1">
+
+        </svg>
+        <svg class="features_icons">
+            <use href="./images/icons/icons.svg#icon-clock-1"></use>>
+        </svg>
+        <svg class="features_icons">
+            <use href="./images/icons/icons.svg#icon-diagram-1"></use>>
+        </svg>
+        <svg class="features_icons">
+            <use href="./images/icons/icons.svg#icon-astronaut-1"></use>>
+        </svg>
+
+            <!-- <svg>
+                <use href="./icons/symbol-defs.svg#icon-antenna-1"/>
+                 </svg> -->
+        
+        
+
+
+      </div>
+
     <!--Group section-->
+
+
     <section class="container section" >
         <!--Div cu info-->
         <div class="container_details">
@@ -91,38 +131,164 @@ rel="stylesheet">
     <!--Team section-->
     <section class="team_section">
         <div class="container">
-            <div class="team_section_title">
+            <!-- <div class="team_section_title"> -->
          <h2 class="title">Our Team</h2>
-            </div>
+            <!-- </div> -->
        <!--Div container with cards about team members-->
-       <div class="team_section_members_name roles">
+       <div class="team_section_members_name">
         <!--Container 1-->
            <div class="profile"> 
              
-              <img class="profile_image" src="./images/christopherwalker.jpg" alt="Product Designer" width="270"/>
-              <p ><b>Christopher Walker</b></p>
-              <p>Product Designer</p>
+              <img class="profile_image"src="./images/christopherwalker.jpg" alt="Product Designer" width="230"/>
+              <p class="team_name">Christopher Walker</p>
+              <p class="team_role">Product Designer</p>
+              <ul class="team_social">
+                <li>
+                    <a href="">
+                    <svg class="icon_social">
+                        <use href="./images/icons/icons.svg#icon-instagram"/>
+                    </svg></a></li>
+                <li>
+                    <a href="">
+                    <svg class="icon_social">
+                    <use href="./images/icons/icons.svg#icon-twitter"/>
+                </svg></a></li>
+
+                <li><a href=""><a href="">
+                <svg class="icon_social" >
+                    <use href="./images/icons/icons.svg#icon-facebook"/>
+                </svg></a></li>
+
+                <li><a href="">
+                    <svg class="icon_social"> 
+                        <use href="./images/icons/icons.svg#icon-linkedin">
+                    </svg></a></li> 
+              </ul>
             </div>
          <!--Container 2-->   
             <div class="profile">
-               <img class="profile_image" src="./images/kylieevans.jpg" alt="Frontend Developer" width="270">
-               <p><b>Kylie Evans</b></p>
-               <p>Frontend Developer</p>
+               <img class="profile_image" src="./images/kylieevans.jpg" alt="Frontend Developer" width="230">
+               <p class="team_name">Kylie Evans</p>
+               <p class="team_role">Frontend Developer</p>
+               <ul class="team_social">
+                <li>
+                    <a href="">
+                    <svg class="icon_social">
+                        <use href="./images/icons/icons.svg#icon-instagram"/>
+                    </svg></a></li>
+                <li>
+                    <a href="">
+                    <svg class="icon_social">
+                    <use href="./images/icons/icons.svg#icon-twitter"/>
+                </svg></a></li>
+
+                <li><a href=""><a href="">
+                <svg class="icon_social" >
+                    <use href="./images/icons/icons.svg#icon-facebook"/>
+                </svg></a></li>
+
+                <li><a href="">
+                    <svg class="icon_social"> 
+                        <use href="./images/icons/icons.svg#icon-linkedin">
+                    </svg></a></li> 
+              </ul>
             </div>
         <!--Container 3-->
             <div class="profile">
-                <img src="./images/ryanharris.jpg" alt="Marketing" width="270">
-                <p><b>Ryan Harris</b></p>
-                <p>Marketing</p>
+                <img src="./images/ryanharris.jpg" alt="Marketing" width="230">
+                <p class="team_name">Ryan Harris</p>
+                <p class="team_role">Marketing</p>
+                <ul class="team_social">
+                    <li>
+                        <a href="">
+                        <svg class="icon_social">
+                            <use href="./images/icons/icons.svg#icon-instagram"/>
+                        </svg></a></li>
+                    <li>
+                        <a href="">
+                        <svg class="icon_social">
+                        <use href="./images/icons/icons.svg#icon-twitter"/>
+                    </svg></a></li>
+    
+                    <li><a href=""><a href="">
+                    <svg class="icon_social" >
+                        <use href="./images/icons/icons.svg#icon-facebook"/>
+                    </svg></a></li>
+    
+                    <li><a href="">
+                        <svg class="icon_social"> 
+                            <use href="./images/icons/icons.svg#icon-linkedin">
+                        </svg></a></li> 
+                  </ul>
             </div>
         <!--Container 4-->
             <div class="profile">
-                <img src="./images/tylermoore.jpg" alt="UI Designer" width="270">
-                <p><b>Tyler Moore</b></p>
-                <p>UI Designer</p>
+                <img src="./images/tylermoore.jpg" alt="UI Designer" width="230">
+                <p class="team_name">Tyler Moore</p>
+                <p class="team_role">UI Designer</p>
+                <ul class="team_social">
+                    <li>
+                        <a href="">
+                        <svg class="icon_social">
+                            <use href="./images/icons/icons.svg#icon-instagram"/>
+                        </svg></a></li>
+                    <li>
+                        <a href="">
+                        <svg class="icon_social">
+                        <use href="./images/icons/icons.svg#icon-twitter"/>
+                    </svg></a></li>
+    
+                    <li><a href=""><a href="">
+                    <svg class="icon_social" >
+                        <use href="./images/icons/icons.svg#icon-facebook"/>
+                    </svg></a></li>
+    
+                    <li><a href="">
+                        <svg class="icon_social"> 
+                            <use href="./images/icons/icons.svg#icon-linkedin">
+                        </svg></a></li> 
+                    </ul>
             </div>
        </div>
     </div>
+    </section>
+    <!-- Regular customers -->
+    <section class="customers_section">
+        <div class="container">
+            <h2 class="title_customers">Regular Customers</h2>
+            <div class="regular_customers">
+                <div class="customers_icons">
+                <svg class="icon_client">
+                    <use href="./images/icons/icons.svg#icon-Client1" >
+                </svg></div>
+                <div  class="customers_icons">
+                <svg class="icon_client">
+                    <use href="./images/icons/icons.svg#icon-Client2"/>
+                </svg></div>
+                <div  class="customers_icons">
+                <svg class="icon_client">
+                    <use href="./images/icons/icons.svg#icon-Client3"/>
+                </svg></div>
+                <div  class="customers_icons">
+                <svg class="icon_client">
+                    <use href="./images/icons/icons.svg#icon-Client4"/>
+                </svg>
+               </div>
+                <div  class="customers_icons">
+                <svg class="icon_client">
+                    <use href="./images/icons/icons.svg#icon-Client5"/>
+                
+                </svg></div>
+                <div  class="customers_icons">
+                <svg class="icon_client">
+                    <use href="./images/icons/icons.svg#icon-Client6"/>
+                </svg>
+              </div>
+            </div>
+
+        </div>
+
+
     </section>
 </main>
 
@@ -133,15 +299,50 @@ rel="stylesheet">
     <div>
         <a href="#" class="footer_logo"><span>Web</span>Studio</a>
     </div>
+</div>
     <!--Footer info-->
      <div class="footer_info">
+        <div class="footer_contacts">
+        
     <address class="footer_address">695 Park Ave, NY 10065, USA</address>
+
     <a class="footer_email"
-    href="info@devstudio.com">info@devstudio.com</a>
+    href="info@devstudio.com">info@devstudio.com</a><br>
+
     <a class="footer_tel" 
     href="+1212-772-4150">+1 212-772-4150</a>
-    </div>  
 </div>
+
+<div class="find_us">
+
+<h1 class="find_us_header">find us on</h1>
+
+<ul class="findus_social">
+    <li>
+        <a href="">
+        <svg class="icon_social_footer">
+            <use href="./images/icons/icons.svg#icon-instagram"/>
+        </svg></a></li>
+    <li>
+        <a href="">
+        <svg class="icon_social_footer">
+        <use href="./images/icons/icons.svg#icon-twitter"/>
+    </svg></a></li>
+
+    <li><a href=""><a href="">
+    <svg class="icon_social_footer" >
+        <use href="./images/icons/icons.svg#icon-facebook"/>
+    </svg></a></li>
+
+    <li><a href="">
+        <svg class="icon_social_footer"> 
+            <use href="./images/icons/icons.svg#icon-linkedin">
+        </svg></a></li> 
+    </ul>
+
+</div>
+     
+
 </section>
 </footer>
 </body>
