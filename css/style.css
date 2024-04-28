@@ -545,8 +545,8 @@ margin-top: 90px;
     line-height:16px;
     color: var(--white);
     padding-left: 110px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+   
+
     
 }
 .footer_tel {
@@ -557,7 +557,8 @@ margin-top: 90px;
     line-height:16px;
     color:var(--white);
     padding-left: 110px;
-    padding-bottom: 5px;  
+    
+   
     
 }
 
